@@ -18,7 +18,7 @@ a{text-decoration:none;
 a:hover{
     margin-left:10px;
     text-shadow:3px 3px white;
-    transition: 2s;
+    transition: 1s;
     color:gold;
     text-decoration: underline;
 }
