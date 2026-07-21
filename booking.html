@@ -2,14 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Archivo+Black&family=Black+Ops+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" 
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     </head>
-    <body>
+    <body class="td">
         <form>
             <fieldset>
                 <table cellpadding="10">
-                    <caption>
+                    <caption class="caption">
                         <h3>
                             <i class="fa-solid fa-calendar">
                             </i> Create Booking
@@ -72,6 +76,15 @@
                                 <option>304</option>
                             </optgroup>
                             </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Note</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="note" placeholder="Type here..." rows="5" cols="30"></textarea>
                         </td>
                     </tr>
                     <tr>
