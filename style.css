@@ -22,12 +22,3 @@ a:hover{
     color:gold;
     text-decoration: underline;
 }
-table{
-    border:1px solid goldenrod;
-    box-shadow: 2px 2px gray;
-    width:100%;
-}
-tr{
-    border:2px solid goldenrod;
-    padding:10px;
-}
